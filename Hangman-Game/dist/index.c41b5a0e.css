@@ -1,0 +1,73 @@
+.game-container {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.word-display {
+  margin: 20px 0;
+  font-size: 2rem;
+}
+
+.letter {
+  margin: 0 5px;
+  font-weight: bold;
+}
+
+.keyboard {
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0;
+  display: flex;
+}
+
+.keyboard button {
+  cursor: pointer;
+  color: #fff;
+  background-color: #4a90e2;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px 15px;
+  font-size: 1rem;
+  transition: background-color .3s;
+}
+
+.keyboard button:hover:not(:disabled) {
+  background-color: #357ae8;
+}
+
+.keyboard button:disabled {
+  cursor: not-allowed;
+  background-color: #ccc;
+}
+
+.game-over {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  margin-top: 20px;
+  padding: 15px;
+  box-shadow: 0 2px 4px #0000001a;
+}
+
+.game-over button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #28a745;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  transition: background-color .3s;
+}
+
+.game-over button:hover {
+  background-color: #218838;
+}
+
+.hangman-figure {
+  margin: 20px 0;
+  font-size: 1.2rem;
+}
+/*# sourceMappingURL=index.c41b5a0e.css.map */
