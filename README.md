@@ -6,7 +6,7 @@
 
 1. **Download the Code:** Clone this repo using:
    ```sh
-   git clone https://github.com/Dylan1Terrell/full-stack-dev.git
+   git clone https://github.com/Dylan1Terrell/full-stack-dev/tree/main/Hangman-Game
    ```
 2. **Install Dependencies:** Navigate into the folder and run:
    ```sh
